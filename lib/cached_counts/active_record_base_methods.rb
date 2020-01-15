@@ -12,7 +12,7 @@ module CachedCounts
         target = case Rails::VERSION::MAJOR
         when 3
           :scoped
-        when 4, 5
+        when 4, 5, 6
           :all
         end
 
